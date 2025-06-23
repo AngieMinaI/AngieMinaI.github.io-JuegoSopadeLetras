@@ -2,7 +2,7 @@
 const niveles = [
   { size: 6, palabras: ["SOL", "LUNA", "MAR"] },
   { size: 8, palabras: ["PLANETA", "ESTRELLA", "GALAXIA"] },
-  { size: 10, palabras: ["ASTEROIDES", "ASTRONOMIA", "TELESCOPO"] },
+  { size: 10, palabras: ["ASTEROIDES", "ASTRONOMIA", "TELESCOPIO"] },
 ];
 
 const direcciones = [
