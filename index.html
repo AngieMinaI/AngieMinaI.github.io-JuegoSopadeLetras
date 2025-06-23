@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sopa de Letras</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="portada" class="portada">
+    <img src="portada.png" alt="Sopa de Letras" class="imagen-portada">
+    <button class="boton-jugar" onclick="iniciarJuego()">JUGAR</button>
+    <p class="creditos">Desarrollado por Angie Mina</p>
+  </div>
+
+  <div id="juego" class="fondo-nivel" style="display: none;">
+    <h2 id="nivel"></h2>
+    <div id="palabras"></div>
+    <div id="sopa" class="sopa-grid"></div>
+  </div>
+
+ 
+
+  <audio id="fondo" loop>
+    <source src="fondo.mp3" type="audio/mpeg">
+  </audio>
+
+  <audio id="encontrada">
+    <source src="encontrada.mp3" type="audio/mpeg">
+  </audio>
+   <script src="script.js"></script>
+</body>
+</html>
